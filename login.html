@@ -9,17 +9,53 @@
     </style>
     <link rel="shortcut icon" href="" type="image/x-icon" />
     <link rel="stylesheet" href="login.css" />
+    <script src="script.js" defer></script>
     <title>Craxinno</title>
   </head>
   <body>
     <header>
-      <h1>title</h1>
+      <img src="./assets/logo.svg" alt="logo" />
+      <h1>Helping hands always come handy when it comes to building Dreams!</h1>
     </header>
     <main>
-      <h2>Page Title</h2>
+      <section class="heroText">
+        <h2>Integrated with Social Media</h2>
+        <h3>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ut id
+          nisl tellus rhoncus, imperdiet consequat ornare.
+        </h3>
+        <a href="index.html"><button>Learn More</button></a>
+      </section>
+      <section class="heroCards">
+        <div onclick="expandCard('card-1')" id="card-1" class="card card-1">
+          <img src="./assets/fb.svg" alt="fb" />
+          <h4>Facebook</h4>
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus
+            dui faucibus eu.
+          </h5>
+          <a href="index.html"><button>→ Learn More</button></a>
+        </div>
+        <div onclick="expandCard('card-2')" id="card-2" class="card card-2">
+          <img src="./assets/twitter.svg" alt="twitter" />
+          <h4>Twitter</h4>
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus
+            dui faucibus eu.
+          </h5>
+          <a href="index.html"><button>→ Learn More</button></a>
+        </div>
+        <div onclick="expandCard('card-3')" id="card-3" class="card card-3">
+          <img src="./assets/google.svg" alt="google" />
+          <h4>Google</h4>
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus
+            dui faucibus eu.
+          </h5>
+          <a href="index.html"><button>→ Learn More</button></a>
+        </div>
+      </section>
     </main>
-    <footer>
-      <p>&copy;</p>
-    </footer>
+    <footer></footer>
   </body>
 </html>
