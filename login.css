@@ -81,6 +81,7 @@ button {
   overflow: hidden;
   text-align: center;
   padding-top: 24px;
+  cursor: pointer;
 }
 .card-1 {
   top: 0px;
