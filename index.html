@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap");
+    </style>
+    <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Craxinno</title>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logoWhite.svg" alt="logo" />
+      <nav>
+        <a href="login.html"><button class="inBtn">Sign In</button></a>
+        <a href="login.html"><button class="upBtn">Sign Up</button></a>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <form method="get" action="/login.html">
+          <h3>Create Your Account</h3>
+          <input required type="text" name="fname" placeholder="John Doel" />
+          <input
+            required
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+          <input
+            required
+            type="password"
+            id="pwd"
+            name="pwd"
+            placeholder="Password"
+          />
+          <img class="pwdEye" src="./assets/eye.svg" onclick="showPassword()" />
+          <p for="">
+            By Clicking “Register” you agree
+            <a href="login.html">Privacy Policy</a>
+          </p>
+          <input class="register" type="submit" value="Register" />
+          <p for="">
+            Already have an account? <a href="login.html">Sign In</a>
+          </p>
+        </form>
+      </div>
+      <section>
+        <h1>Advanced analytics to grow your business</h1>
+        <h2>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ut id
+          nisl tellus rhoncus, imperdiet
+        </h2>
+      </section>
+    </main>
+  </body>
+</html>
